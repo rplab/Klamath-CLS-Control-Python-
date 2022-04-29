@@ -1,0 +1,3 @@
+Use this command format in CMD to translate generated ui files to py files
+
+python -m PyQt5.uic.pyuic C:\Users\Raghu\Desktop\AcquisitionDialog.ui -o C:\Users\Raghu\Desktop\AcquisitionDialog.py -x
