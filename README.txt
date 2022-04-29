@@ -26,13 +26,15 @@ Files:
 AppStart.py - Application launch file. Requires Micro-Manager to be open and have port access enabled
               (see pycromanager documentation).
 
-Controller.py - Contains all controller classes, one for each main GUI element. I made one for each
-                GUI element to better modularize the code.
+Controller.py - Contains all controller classes, one for each main GUI element.
 
 QtDesignerGUI.py - Contains all GUI elements. An instance of each element is created in its respective controller.
+
+GeneratedUI folder - All GUI files in here were created in QtDesigner and then converted to Python files.
 
 HardwareCommands.py - Contains all device properties and methods that interact directly with hardware.
 
 CLSAcquisiiton.py - Main acquisition script.
 
 CLSAcquisitionParameters.py - The model file. Contains two classes that store data for use in acquisition.
+
